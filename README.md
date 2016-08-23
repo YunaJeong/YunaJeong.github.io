@@ -1,4 +1,5 @@
-# 중앙일보
-## 헤드라인
-### 올림픽 폐막식
-> 2016년 브라질 리우에서 올림픽 폐막식을 가졌다.
+# web에 대해 이해하기
+
+## 웹파악전 익힐 기능
+1. [markdown파일](http://guides.gitbub.com/features/mastering-markdown/)
+2. [git-bash(간단한 사용법) - 폴더생성/삭제등..](git_bash_basic.md)
