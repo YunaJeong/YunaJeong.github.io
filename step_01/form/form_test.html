@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko-KR">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="keywords" content="form, input, select" />
+    <meta name="description" centent="form코드를 이용한 룸예약 만들기" />
+    <meta name="title" content="form기능 이해하기" />
+    <meta name="author" centent="yuna" />\
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="favicon.png" />
+    <title>form기능 이해하기</title>
+    <style type="text/css"></style>
+    <script type="text/script"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>예약문의</legend>
+          <label>예약문의</label>
+           <ul>
+            <li>
+                <label for="userName">작성자</label>
+            </li>
+            <li>
+                <label for="userPassword">비밀 번호</label>
+            </li>
+            <li>
+                <label for="title">제 목</label>
+            </li>
+            <br />
+            <li>
+               <label for="userName"></label>
+                <input type="text" id="userName" name="userName" value="작성자 서명을 입력하세요" />
+            </li>
+            <li>
+                <label for="userPassword"></label>
+                <input type="password" id="userPassword" name="userPassword" value="" />
+            </li>
+            <li>
+                <label for="title"></label>
+                <input type="text" id="title" name="title" value="" />
+            </li>
+        </ul>
+        
+        <p>예약하실 객실을 선택하세요
+            <input type="radio" name="room" id="single" value="" />
+            <label for="single">Single /</label>
+            <input type="radio" name="room" id="double" value="" />
+            <label for="double">Double /</label>
+            <input type="radio" name="room" id="twin" value="" />
+            <label for="twin">Twin</label>
+        </p>
+        <br />
+        
+        <label>예약하실 객실의 층수를 선택하세요.</label>
+            <select name="floorSeclector" id="floorSelector">
+                <option value="ontfloor">1층</option>
+                <option value="twofloor">2층</option>
+                <option value="treefloor">3층</option>
+                <option value="fourfloor">4층</option>
+                <option value="fivefloor">5층</option>
+            </select>
+            
+        <p>기타 패키지 옵셥을 선택하세요
+        <input type="checkbox" checked="checked" id="breakfast" name="service" value="breakfast" /><!--checked="checkde"는 미리 하나를 체크해놓는다.-->
+        <label for="breakfast">조식</label>
+        <input type="checkbox" id="barbecue" name="service" value="barbecue" />
+        <label for="barbecue">바베큐</label>
+        <input type="checkbox" id="pickup" name="service" value="pickup" />
+        <label for="pickup">픽업서비스</label>
+        
+        </p>
+        <!--
+        <button name="" type="submit">확인.전송</button>
+        <button name="" type="reset">취소</button>
+        -->
+        <input type="submit" name="ok" id="ok" value="확인 및 전송" />
+        <input type="reset" name="cancle" id="cancle" value="취소" />
+       
+    </fieldset>
+</body>
+</html>
