@@ -1,0 +1,16 @@
+/* layout_test.css */
+*{margin:0; padding:0; border:0;}
+li{list-style: none;}
+body{margin:0;}
+
+#box{width:800px; height:600px; background-color:#999;}
+.header{width:180px; height: 520px; float:left;}
+.logo{width:150px; height:100px; background-color:#509; margin:20px; margin-top:10px;}
+.menu{width:150px; height: 400px; background-color:#f52;margin-left:20px; float:left;}
+li{width:150px; height:30px; background-color: #267; margin-top:5px;}
+.selection{width:570px; height:520px; float:right;}
+.main{width:550px; height: 250px; background-color: #480; float:right; margin-right:10px; margin-top:10px;}
+.lpaint{width:230px; height:150px; background-color:#825; margin-left:10px; margin-top:10px; float:left;}
+.rpaint{width:300px; height:150px; background-color:#f00; margin-right:10px; margin-top:10px; float:right;}
+.footer{width:800px; height:80px; float:left;}
+.footbar{width:750px; height:30px; background-color:#a8a; margin-left:20px; margin-top:30px; float:left;}

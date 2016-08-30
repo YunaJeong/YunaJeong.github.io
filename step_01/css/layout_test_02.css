@@ -1,0 +1,29 @@
+/*  layout_test_02.css  */
+*{margin:0; border:0; padding:0;}
+li{list-style: none;}
+body{margin: 0;}
+
+#box{width:1200px; height:1800px; margin:0 auto;}
+.header{width:1200px; height:400px; background-color:#f50;}
+.login{width:230px; height:51px; background-color:#eeb; float:right; margin-right: 25px;}
+.h1{width:1150px; height:62px; background-color:#eeb; margin-left:25px; float:left; }
+.gnb{width:1150px; height:92px; margin-left:25px; margin-top:195px; float:left;}
+.gnb > li{width:287px; height:92px; background-color:#5ff; float:left;}
+
+
+.selection{width:1200px; height:1185px; background-color:#08f;}
+.sel_title{width:372px; height:110px; background-color:#ff0; float:left; margin-left:414px; margin-top:10px;}
+.smal_selection{width:1148px; height:900px; background-color:#d89; float:left; margin-top:20px; margin-left:26px;}
+.icon_fs{width:1148px; height:300px; float:left;}
+.icon_fs > li{width:287px; height:300px; background-color:#088; float:left;}
+.icon_se{width:574px; height:600px; background-color:#025; float:left;}
+.icon_th{width:574px; height:600px; float:left;}
+.icon_th_1 > li{width:287px; height:300px; background-color:#580; float:left;}
+.icon_th_2 > li{width:287px; height:300px; background-color:#805; float:left;}
+
+.bottom_selection{width:1148px; height:125px; background-color:#d35; float:left; margin-top:10px; margin-left:26px;}
+
+
+.footer{width:1200px; height:215px; background-color:#504}
+.foot_logo{width:190px; height:60px; background-color:#eeb; float:left; margin-top:85px; margin-left:505px;}
+.imfo{width:600px; height:70px; background-color:#eeb; float:left; margin-left:300px;}
