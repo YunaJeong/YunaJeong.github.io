@@ -1,0 +1,1 @@
+#wrap>(#header>h1>a[index.html]{제목}+.gnb>h2{전체 네비}>ul>li*5>a[#]{link_$$})+(#content>h2{본문}+.article+.section)+(#footer>h2{웹페이지의 정보}+(ul>li*3>a[#]{사이트})+address{회사 주소/연락처/사업자번호 등})
