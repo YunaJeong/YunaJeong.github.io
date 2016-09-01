@@ -1,0 +1,32 @@
+/* layout_test_03.css*/
+body,ul,li,ol{margin: 0; padding:0;}
+ul,li,ol{list-style: none;}
+
+.container{width:960px; height:auto; margin:0 auto;}
+/*  .header---------------------------------------*/
+.header{width:820px; height:175px; background-color:#09f;padding:0 70px; padding-top:25px;}
+  .unb{width:180px; height:70px; background-color:#000; float:right;}
+  .logo{width:100px; height:165px; background-color:#000; float:left;}
+  .glb{width:660px; height:70px; background-color:#000; float:right; margin-top:25px;}
+
+/*  .section--------------------------------------*/
+
+.section{width:820px; height:auto; background-color:#fa5; padding:0 70px; padding-top:10px;}
+.section:after{content:" "; display:block; clear:both;}
+
+.section_b1{width:820px; height:450px; background-color:#dff;}
+.section_b2{width:800px; height:760px; background-color:#5ff;  padding:10px;}
+.box_add{margin-left:10px;}
+  .b2_box1{width:380px; height:250px; background-color:#f50; float:left;}
+  .b2_box2{width:380px; height:250px; background-color:#f50; float:left;}
+  .b2_box3{width:380px; height:250px; background-color:#f50; float:left;}
+  .b2_box4{width:380px; height:250px; background-color:#f50; float:left;}
+  .b2_box5{width:380px; height:250px; background-color:#f50; float:left;}
+  .b2_box6{width:380px; height:250px; background-color:#f50; float:left;}
+
+/*.section_b2{padding: 20px;}*/
+/*.section_b2 li{width: 47.5%;}*/
+/*.box_add{margin-right:5%}*/
+
+.section_b3{width:820px; height:1110px; background-color:#aff;  margin-top:10px;}
+.section_b4{width:820px; height:1110px; background-color:#0ff;  margin-top:10px;}
