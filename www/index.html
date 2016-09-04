@@ -5,16 +5,33 @@
   <meta charset="UTF-8">
   <link rel="apple-touch-icon" href="favicon.png">
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="./css/main_index.css">
   <title>yuna 웹페이지</title>
 </head>
 <body>
-  <h1><a href="index.html">my portfolio</a></h1>
-  <ul>
-    <li><a href="./profile.html">profile</a></li>
-    <li><a href="./portfolio_01.html">portfolio 첫번째</a></li>
-    <li><a href="./portfolio_02.html">portfolio 두번째</a></li>
-  </ul>
+  <div id="container">
+   <div id="header">
+      <h1><a href="index.html">my portfolio</a></h1>
+      <ul>
+        <li class="header_menu"><a href="./profile.html">profile</a></li>
+        <li><a href="./portfolio_01.html">portfolio1</a></li>
+        <li><a href="./portfolio_02.html">portfolio2</a></li>
+      </ul>
+      
+    </div><!--// #header-->
+  <div id="content">
+     <ul>
+      <li><a href="./profile.html">profile</a></li>
+      <li><a href="./portfolio_01.html">portfolio 첫번째</a></li>
+      <li class="clearfix"><a href="./portfolio_02.html">portfolio 두번째</a></li>
+    </ul>
+    
+  </div><!--// #content-->
   
-  <p>최초의 인식하는 페이지</p>
+  <div id="footer">
+    <p>이름:정유나      생년월일:1991.08.09</p>
+  </div>
+  
+  </div>
 </body>
 </html>
