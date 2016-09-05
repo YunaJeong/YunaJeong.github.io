@@ -1,0 +1,24 @@
+body,div,ul,ol,li{margin: 0; padding: 0;}
+
+ul,ol,li{list-style: none;}
+
+#container{width: 1500px; height: 2000px; background-color: #ddd; margin: 0 auto;}
+/* #header--------------------------------*/
+/*#header{width: 100%; height: auto; background-color: #fff; float:left;}
+.header_logo{margin: 50px 0;margin-left: 400px; margin-bottom: 0; float:left;}
+.header_unb{margin-top: 30px; margin-right: 400px; float:right;}
+.header_select{margin-right:420px; margin-top:10px;float:right;}
+.header_lnb{width: 100%; height: 58px; background-color: #fc0; margin-top: 10px; float:left;}
+.header_lnb>li{float:left;}
+.header_lnb{margin-left:400px; float:left;}
+.header_nb_02{width:100%; height:50px; background-color: #eee; float:left;}
+.header_nb_02>li{margin-top:20px; margin-left:20px ;float:left;}
+#header .header_nb_02_01{margin-left:600px;}
+/* #content--------------------------------*/
+/*#content{width: 100%; height: 1200px; background-color: #0f9; float:left;}
+
+
+/* #footer--------------------------------*/
+/*#footer{width: 100%; height: 500px; background-color: #f09; float:left;}*/
+
+
