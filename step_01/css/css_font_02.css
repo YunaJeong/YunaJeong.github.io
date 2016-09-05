@@ -1,0 +1,21 @@
+/* css_font_02.css */
+html, body{height:100%; font-size:100%; font-family:"myriad pro", arial, dotum, sans-serif;}
+
+h1{width:70%; border-bottom:1px double #569; margin-left: 15%; text-align:justify;}
+/* text-align:center | right | left | justify; */
+.content{width:300px; background-color: #caa;}
+.font_01{color:#91c; font-size:22.4px; font-size:14.rem; letter-spacing:1px; letter-spacing:0.0625rem;}
+/* letter-spacing (자간-글자와 글자사이 간격) */
+
+.font_02{color:#1c5; word-spacing:1rem; text-decoration:line-through;}
+/* word-spacing (어간-단어와 단어사이 간격) */
+/*text-decoration: none | underline | line-through | over-line(글자와 선사이간격을 조절할수 없다)*/
+
+.font_03{color:#597;width:200px; height:100px; border:1px solid #9aa; overflow-y:scroll; overflow-x:hidden;}
+/*overflow:hidden | scroll | auto*/
+
+.font_04{width:100%;  white-space: nowrap; overflow:hidden; text-overflow: ellipsis;}
+/*	white-space: nowrpw; - 줄바꿈처리를 하지 않도록 함
+		text-overflow: ellipsis; - 말줄임표를 사용해라
+*/
+
