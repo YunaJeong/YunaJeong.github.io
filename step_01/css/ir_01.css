@@ -1,0 +1,23 @@
+/*  ir_01.css  */
+
+ul,li,ol{margin:0; padding:0; list-style: none;}
+h1{width:175px; height:175px; border:1px solid #acc;}
+h1>a{width:100%; height:100%; display:block; background-color:#777; color:#fff;
+	background-image:url("../img/icon_03.png"); background-repeat:no-repeat;
+	background-position:center center;}
+	/* 특정된 class네임 hidden에만 숨김처리하는 방법 */
+.hidden{width:0; height:0; overflow:hidden; display:block;}
+	/* 여러개의 링크된 내용안의 숨김처리 해야하느 경우(ir기법시) */
+.link a{width:100%; height:100%; display:block;}
+.link a>span{width:0; height:0; display:block; overflow:hidden;}
+
+
+ul{width:512px; height:128px; margin:0 auto; border:1px solid #0af;}
+ul>li{width:128px; height:inherit; float:left;}
+ul>li>a{background-repeat: no-repeat; background-position: center;
+	/* width: 100%;  height:100%; display:block;*/} 
+.list_01{background-image:url("../img/icon_04.png");}
+.list_01:hover{background-image:url("../img/icon_05.png");}
+.list_02{background-image:url("../img/icon_05.png");}
+.list_03{background-image:url("../img/icon_06.png");}
+.list_04{background-image:url("../img/icon_07.png");}
