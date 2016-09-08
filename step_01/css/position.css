@@ -18,7 +18,7 @@ body{height:5000px;}
 .position{position:relative; z-index: 100;}
 /* static은 z-index | top/left등은 작동하지 않음: 가장 기본형의 형태*/
 	.static{position:static; z-index:-1000; top:500px;}
-	.fixed{position:fixed; z-index:-1000; top:0; left:5rem;}
+	.fixed{position:fixed; z-index:- 1000; top:0; left:5rem;}
 	.absolute{position:absolute; z-index:-500; top:0; left:8rem;}
 	.relative{position:relative; z-index:-100; top:3em; left:1em;}
 	.normal{}
