@@ -1,0 +1,33 @@
+#container{width: 960px; height:1500px; margin:0 auto;}
+/* #header---------------------------- */
+#header{width:inherit; height: 60px; background-color:#009bde;}
+h1{width:160px; height:inherit; background-color:#a80; float:left;}
+.gnb{width:710px; height:inherit; background-color:#001a71; margin-left:10px;
+	float:left;}
+.gnb ul{width:470px; height:inherit; background-color:#001a71; float:left;}
+.gnb li{float:left;}
+.gnb .leg{width:118px; background-color:#001a71; float:right;}
+.unb{width:70px; height:inherit; background-color:#885; margin-left: 10px; float:left;}
+
+/* #content---------------------------- */
+#content{width:inherit; height: 406px; background-color:#aaa;}
+
+
+
+/* #section---------------------------- */
+#section{width:inherit; height: 625px; background-color:#001a71;}
+#section li{float:left;}
+.sec_top{width:inherit; height: 400px; background-color:#fff;}
+.sec_top>li{width: 240px; height: inherit; background-color: #ddd;}
+.sec_top .event{width: 480px; background-color: #fb4;}
+.sec_bottom{width:inherit; height: 225px; background-color:#f40;}
+.cf{width: 560px; height:inherit; background-color:#0fa;}
+.custom{width: 400px; height:inherit; background-color:#aaa;}
+
+/* #com---------------------------- */
+#com{width:inherit; height: 178px; background-color:#888;}
+
+
+
+/* #footer---------------------------- */
+#footer{width:inherit; height: 204px; background-color:#333;}
