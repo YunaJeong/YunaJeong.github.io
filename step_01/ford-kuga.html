@@ -4,6 +4,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="./css/ford-kuga.css">
+	<link rel="stylesheet" href="./css/reset.css">
 	<title>title</title>
 </head>
 <body>
@@ -28,8 +29,8 @@
 				<li>광고3</li>
 			</ul> -->
 			<div class="slide_btn">
-				<button type="button" class="left_banner_button">&lt;<span>왼쪽광고보이기</span></button>
-				<button type="button" class="right_banner_button">&gt;<span>오른쪽광고보이기</span></button>
+				<button type="button" class="left_banner_button">&lt;<span class="hidden">왼쪽광고보이기</span></button>
+				<button type="button" class="right_banner_button">&gt;<span class="hidden">오른쪽광고보이기</span></button>
 			</div>
 			<ul class="banner_box">
 				<li class="banner_area_01">banner_area_01</li>
@@ -41,19 +42,37 @@
 				<li class="banner_area_07">banner_area_07</li>
 				<li class="banner_area_08">banner_area_08</li>
 			</ul>
-			<ul class="indicate"></ul>
+			<ul class="indicate">
+				<li class="indi_01">01</li>
+				<li class="indi_02 active">02</li>
+				<li class="indi_03">03</li>
+				<li class="indi_04">04</li>
+				<li class="indi_05">05</li>
+				<li class="indi_06">06</li>
+				<li class="indi_07">07</li>
+				<li class="indi_08">08</li>
+			</ul>
 		</div>
 		<div id="model">
-			<h2>광고 모델보기</h2>
-			<dl>
-				<dt>제목</dt>
-				<dd>내용</dd>
-			</dl>
-			<div><a href="#">link</a></div>
-
+			<h2>A Vehicle for Every Lifestyle</h2>
+			<p>당신의 라이프 스타일에 꼭 맞는 모델을 찾아보세요</p>
+			<div class="model_link">
+				<a href="#">전체 모델 보기</a>
+			</div>
 		</div>
 		<div id="gallery">
 			<h2>광고보기</h2>
+			<div class="line_up">
+				<h3 class="hidden">line_up시리즈</h3>
+				<ul>
+					<li class="line_up_01 main">line_up_01</li>
+					<li class="line_up_02">line_up_02</li>
+					<li class="line_up_03">line_up_03</li>
+					<li class="line_up_04">line_up_04</li>
+					<li class="line_up_05">line_up_05</li>
+				</ul>
+			</div>
+			<div class="near_gallery"></div>
 		</div>
 		<div id="footer">
 			<h2>포드보기</h2>
