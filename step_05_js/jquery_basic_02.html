@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<script src="./js/jquery-1.12.4.min.js"></script>
+	<script src="./js/jquery-migrate-3.0.0.min.js"></script>
+	<script src="./js/jquery-ui.min.js"></script>
+	<title>title</title>
+	<style>
+	</style>
+	<script>
+		$(document).ready(function(){
+			$('button').css({'padding':'10px',
+							'color':'#fff',
+							'backgroundColor':'#07a'});
+
+			$('button').on('click',function(){
+				$('.wrap').fadeOut ();
+			});
+		});
+	</script>
+</head>
+<body>
+	<button type="button">button</button>
+	<p class="wrap">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum modi id minima facere omnis neque, quis tempora, non dicta exercitationem nobis recusandae iure rem, assumenda quasi vitae magni laboriosam labore distinctio facilis? A tenetur, accusamus? Optio quo omnis doloremque consectetur, nesciunt aliquid, nisi. Fugit alias ratione possimus iusto id suscipit.
+	</p>
+</body>
+</html>
