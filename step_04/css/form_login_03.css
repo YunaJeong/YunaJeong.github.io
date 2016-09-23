@@ -9,15 +9,15 @@ h1{width: 0;height: 0; overflow:hidden;}
 .login_box input[type="text"],[type="password"],[type="tel"],[type="email"],
 .login_box textarea{width: 210px; height: 26px; margin-right:68px; margin-top:6px; float:right;}
 .box_01{width: 100%; height: 160px; margin-bottom:14px;}
-.box_01 li{width: 396px; height: 38px; background-color:#C8D483; 
-	border:2px solid #ECF0D4; margin-top:4px;}
+.box_01 li{width: 380px; height: 38px; background-color:#C8D483; 
+	border:2px solid #ECF0D4; margin-top:4px; padding-left:16px;}
 .box_02{width: 100%; height: 230px; margin-bottom:14px;}
-.box_02 li{width: 396px; height: 38px; background-color:#C8D483;
-	border:2px solid #ECF0D4; margin-top:4px;}
+.box_02 li{width: 380px; height: 38px; background-color:#C8D483;
+	border:2px solid #ECF0D4; margin-top:4px;padding-left:16px;}
 .box_02 .add_box{height: 108px;}
 .box_03{width: 100%; height: 240px;}
-.box_03 li{width: 396px; height: 38px; background-color:#C8D483;
-	border:2px solid #ECF0D4; margin-top:4px;}
+.box_03 li{width: 380px; height: 38px; background-color:#C8D483;
+	border:2px solid #ECF0D4; margin-top:4px;padding-left:16px;}
 .box_03 .card_box{height: 72px;}
 .box_03 .card_box input,
 .box_03 .card_box label{float:left;}
