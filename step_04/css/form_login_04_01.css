@@ -1,0 +1,15 @@
+/*form_login_04_01.css*/
+@charset "UTF-8";
+
+.join_box{width: 768px; height: auto; margin:0 auto; background-color: #ccc;
+	padding:15px 20px;}
+/*h2-----------------------------------------*/
+h2{width: 100%; height: 76px; margin-bottom:36px; background-color: #8ecbc6;}
+h2>span{width: 80px; height: 56px; padding-top:20px; display:block; 
+	background-color:#313131; text-align:center; position:relative;}
+h2>span:before{color:#aaa; font-size:2rem;}
+h2>span:after{content:"SIGN UP"; color:#aaa; width: 100%; display:block; 
+	font-size:.5rem; position:absolute; bottom:16px; left:50%; margin-left:-40px; }
+
+/*form---------------------------------------*/
+form{width: 100%; height: 720px; background-color: #fff;}
