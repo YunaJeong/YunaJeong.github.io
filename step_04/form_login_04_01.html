@@ -11,8 +11,66 @@
 <body>
 	<div class="join_box">
 		<h1 class="hidden">사이트이름</h1>
-		<h2><span class="fa fa-user" aria-hidden="true"><!-- icon --></span>회원가입</h2>
-		<form action=""></form>
+		<h2><i class="fa fa-user" aria-hidden="true"><!-- icon --></i><span>회원가입</span></h2>
+		<form action="" method="post" class="clearfix">
+			<fieldset>
+				<legend>이용 및 약관란</legend>
+				<textarea name="" id="" readonly="readonly">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+
+Ad nesciunt, architecto, laudantium in nobis minus beatae id, est unde deserunt error modi provident necessitatibus esse asperiores molestiae ducimus. Maxime tempore explicabo saepe repellendus quia fugiat 
+
+voluptates, dolores voluptatibus ad accusantium quasi, exercitationem perferendis iste beatae voluptatum alias? Ex quaerat, porro, itaque vitae aperiam quas labore quam, rerum veritatis 
+
+iste, impedit voluptatem culpa sequi soluta illo quos architecto voluptates quidem modi nam accusantium. Impedit quis alias laborum eveniet enim obcaecati, aperiam quas sed laudantium voluptate in, quo quae, veniam ducimus quaerat dolor ut corrupti vero tenetur non, dolore ipsa blanditiis ea magni? Reprehenderit a veritatis tempora esse nulla cum nostrum, ab voluptate, nesciunt, optio sed atque, nisi dolorem eaque? Aperiam unde impedit delectus, laborum provident quam perferendis, cum corporis in ipsum esse molestiae atque, ratione obcaecati officiis minima quisquam. Porro minima deserunt nemo inventore consequuntur ab sit debitis unde. Dolore minima, similique, nesciunt molestias aliquid modi nemo ex, voluptatibus suscipit nostrum, minus odit eligendi voluptas! Accusamus doloremque necessitatibus, voluptas consequuntur aperiam adipisci praesentium, asperiores tenetur id similique odio obcaecati dolores delectus hic eius quidem quam expedita iusto numquam, magnam deleniti nemo. Reprehenderit nemo deleniti ab expedita harum repellendus soluta asperiores quam accusantium? Perferendis consectetur cumque, soluta optio fugit quis, suscipit, doloremque repellendus aspernatur earum minus tempore hic aperiam! Quod, fugiat ratione nobis beatae minima nihil fuga numquam vero sint! Vitae, cupiditate eos excepturi. Ad, mollitia, iure deserunt, iusto adipisci rem laudantium quaerat explicabo quasi provident aliquam? Officia dolorem fuga amet architecto voluptate voluptatum perspiciatis quia incidunt esse, odit. Nam saepe, obcaecati officia corporis qui reiciendis error debitis dolore quis molestias fugit nisi itaque, quia temporibus aliquam quam quasi voluptatum facere optio voluptas, hic facilis dolorum recusandae sit! Similique a, fuga nesciunt laborum reiciendis eligendi aliquid quasi, consequuntur at mollitia, non officia!
+				</textarea>
+				<hr>
+				<input type="checkbox" name="termcheck" id="termCheck" value="약관동의">
+				<label for="termCheck">약관을 모두 읽었으며 동의 합니다.</label>
+			</fieldset>
+			
+			<fieldset class="join">
+				<legend>회원가입</legend>
+				<ul class="join_read">
+					<li class="join_01 point"><label for="">이메일 주소</label></li>
+					<li class="join_02 point"><label for="">비밀번호</label>
+						<span class="hidden">비밀번호는 여섯자리 이상이어야 하며 영문과 숫자를 반드시 포함해야 합니다</span>
+					</li>
+					<li class="join_03 point"><label for="">비밀번호 확인</label></li>
+					<li class="join_04 point"><label for="">닉네임</label></li>
+					<li class="join_05 point"><label for="">비밀번호 찾기 질문/답변</label></li>
+					<li class="join_06"><label for="">메일링 가입</label></li>
+					<li class="join_07"><label for="">쪽지 허용</label></li>
+				</ul>
+				<ul class="join_write">
+					<li class="join_01"><input type="text"></li>
+					<li class="join_02"><input type="text">
+						<p>비밀번호는 6자리 이상이어야 하며 영문과 숫자를 반드시 포함해야 합니다.</p>
+					</li>
+					<li class="join_03"><input type="text"></li>
+					<li class="join_04"><input type="text"></li>
+					<li class="join_05">
+					<select name="" id="">
+						<option value="maile">다른 이메일 주소는?</option>
+						<option value="father">아버지 성함은?</option>
+						<option value="mother">어머니 성함은</option>
+					</select>
+					<input type="text">
+					</li>
+					<li class="join_06"></li>
+					<li class="join_07"></li>
+				</ul>
+			</fieldset>
+			
+			<fieldset class="send_btn">
+				<legend>가입 및 취소버튼</legend>
+				<label for="joinSend" class="hidden">동의하고 가입하겠습니다</label>
+				<label for="joinReset" class="hidden">작성을 취소하겠습니다</label>
+				
+				<input type="submit" name="joinSend" id="joinSend" value="등록">
+				<input type="reset" name="joinReset" id="joinReset" value="취소">
+			</fieldset>
+		</form>
 	</div>
 </body>
 </html>
