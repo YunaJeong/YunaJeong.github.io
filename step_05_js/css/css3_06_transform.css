@@ -13,4 +13,4 @@
 .tr_04>div:nth-of-type(2):active{transform:scale(0.5);}
 .tr_04>div:nth-of-type(2):active>.more_scale{display:block; transform:scale(2);}
 .tr_05{perspective:1000px;}
-.tr_05>div:nth-of-type(2):active{transform:rotateY(90deg);}
+.tr_05>div:nth-of-type(2):active{transform:translate(100px) rotateY(90deg) ;}
