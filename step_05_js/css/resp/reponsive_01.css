@@ -1,0 +1,23 @@
+/*responsive_01.css*/
+body{background-color: #ccc;}
+h1{max-width: 80%; min-width: 360px; margin:0 auto; font-size: 3rem; 
+	text-align: center; border-bottom:1px solid #fff;}
+h2{width: 400px; height: 50px; padding: 1.5rem; margin:0 auto; background-color:#aff; 
+	border-radius: 0.3rem; font-size: 2rem; display:none;}
+.pc{display:block;}
+.tap{}
+.mob{}
+
+/*mobile : 480px */
+@media screen and (max-width:480px){
+	body{background-color: #afc;}
+	.mob{display:block;}
+	.pc{display:none;}
+}
+/*table : 768px*/
+@media screen and (min-width:481px) and (max-width:768px){
+	body{background-color: #0af;}
+	.tap{display:block;}
+	.pc{display:none;}
+}
+/**/
