@@ -1,0 +1,41 @@
+
+/*#addBanner--------------------------------------*/
+#addBanner{width:100%; height:500px; overflow:hidden; position:relative;}
+/*.left_btn{width:80px; height:50px; position:absolute; z-index:100; bottom:50%; right:0; }
+.right_btn{width:80px; height:50px; position:absolute; z-index:100; top:50%; right:0; }
+#addBanner button{width:inherit; height:inherit; font-size:2rem;                        }
+#addBanner button:hover, #addBanner button:focus{background-color:rgba(250,250,250,0.3);}
+#addBanner>ul{width:300%; height:100%; margin-left:-100%;}
+#addBanner>ul>li{width:960px; height:100%; font-size:5rem; text-align:center; float:left; background-color:#0aa;}
+
+#addBanner ul{transition:1s;}
+.left_btn:hover ~ ul{margin-left:0;}
+.right_btn:hover ~ ul{margin-left:-200%;}*/
+.slide_btn{width:100px; height:100px;
+	position:absolute; right:0; top:50%; margin-top:-50px; z-index: 100;}
+	.slide_btn>button{width: 100%; height:50%; font-weight: bold; color:#fff; font-size:2rem;}
+	.left_banner_button{background-color:#075;}
+	.right_banner_button{background-color:#750;}
+	.slide_btn>button:hover, .slie_btn>focus{background-color:rgba(250,250,250,0.3);}
+.banner_box{width:400%; height: 100%; margin-left:-100%; background-color:#777;}
+.banner_box>li{width:25%; height:100%; float:left;
+	text-align:center; line-height: 500px; font-size:5rem; color:#0af; font-weight: bold;}
+	.banner_area_01{background-color:#777;}
+	.banner_area_02{background-color:#888;}
+	.banner_area_03{background-color:#999;}
+	.banner_area_04{background-color:#aaa;}
+	.banner_area_05{background-color:#bbb;}
+	.banner_area_06{background-color:#ccc;}
+	.banner_area_07{background-color:#ddd;}
+	.banner_area_08{background-color:#eee;}
+.indicate{width:200px; height:30px; position:absolute; bottom:20px; left:50%; margin-left:-100px; z-index:100;}
+.indicate>li{width: 16px; height: 16px; float:left; margin-right:5px; border:2px solid #fff; border-radius:50%;}
+	.indicate>.active{background-color:#fff;}
+	.indi_01{}
+	.indi_02{}
+	.indi_03{}
+	.indi_04{}
+	.indi_05{}
+	.indi_06{}
+	.indi_07{}
+	.indi_08{margin-right:0;}

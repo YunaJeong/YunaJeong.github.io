@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/base/reset.css">
+	<link rel="stylesheet" href="./css/form_login_04.css">
+	<title>title</title>
+</head>
+<body>
+	<div class="member_box">
+		<ul class="header">
+			<li class="signup"></li>
+			<li class="header_box">
+				<p>회원가입</p>
+			</li>
+		</ul>
+		<form action="" method='post'>
+			<fieldset class="agr_box">
+				<legend class="hidden">이용약관</legend>
+				<label for="agreement"></label>
+				<textarea name="agreement" id="agreement" cols="30" rows="10" style="resize:none">
+가.개인정보의 수집 목적 및 항목
+
+회사는 원활한 고객상담을 위해 아래와 같은 개인정보를 수집하고 있으며 단순 고객상담외에 어떠한 용도로도 수집된 개인정보를 사용하지 않음을 알려드립니다.
+
+-필수사항 : 이름, 연락처, 이메일
+-선택사항 : 홈페이지 주소, 블로그 주소
+
+또한 서비스 이용과정이나 사업처리 과정에서 아래와 같은 정보들이 자동으로 생성되어 수집될 수 있습니다.
+-IP Address, 쿠키, 접속로그, 서비스 이용 기록, 불량 이용 기록, 결제기록
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint minus necessitatibus similique ducimus ex doloribus, molestiae aperiam earum doloremque nostrum commodi error, placeat fugiat. Error consequatur, non autem illo quo veritatis explicabo repudiandae magni nesciunt. Repudiandae placeat et adipisci sed, itaque. Quisquam tenetur, maiores cupiditate est eligendi. Minima ducimus fugit voluptatibus, commodi eligendi labore nesciunt aperiam cupiditate doloremque dolorum fuga non repellendus iure libero. Dignissimos quaerat natus totam, ab nostrum amet iusto id explicabo quisquam in iure, aliquam, deserunt ipsa distinctio incidunt neque impedit sint facere dolorem optio tenetur illo recusandae. Omnis dolores a, vero dolore saepe alias explicabo, ad.
+				</textarea>
+				<div>
+					<input type="checkbox" name="agreebox" id="agreeBox" value="">
+					<label for="agreeBox">약관을 모두 읽었으며 동의합니다.</label>
+				</div>
+			</fieldset>
+			<fieldset class="personal">
+				<label for="email">이메일 주소</label>
+				<input type="email" name="email" id="email" value="">
+			
+				<label for="password">비밀번호</label>
+				<input type="password" name="password" id="password" value="">
+				<label for="rePassword">비밀번호 확인</label>
+				<input type="password" name="repassword" id="rePassword" value="">
+			
+				<label for="nickname">닉네임</label>
+				<input type="text" name="nickname" id="nickname" value="">
+		
+				<label>비밀번호 찾기 질문/답변</label>
+				<select name="find_pwd" id="findPwd">
+					<option value="born_home">태어난 고향은</option>
+					<option value="another_email">다른 이메일 주소는</option>
+					<option value="first_pat">처음키운 반려동물은</option>
+				</select>
+				<label for="findAnswer"></label>
+				<input type="text" name="find_answer" id="findAnswer" value="">
+				<p>메일링 가입
+				<label for="yes"></label>
+				<input type="radio" name="join" id="yes" value="">
+				<label for="no"></label>
+				<input type="radio" name="join" id="no" value="">
+				</p>
+				<p>쪽지 허용
+				<label for="allOk"></label>
+				<input type="radio" name="message" id="allOk" value="">
+				<label for="friendOk"></label>
+				<input type="radio" name="message" id="friendOk" value="">
+				<label for="allNo"></label>
+				<input type="radio" name="message" id="allNo" value="">
+				</p>
+			</fieldset>
+		</form>
+		<div class="footer">
+			<div>
+				<button>등록</button>
+				<button  id="white">취소</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

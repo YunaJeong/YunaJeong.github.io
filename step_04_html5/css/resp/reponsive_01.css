@@ -1,0 +1,16 @@
+/*responsive_01.css*/
+
+/*mob_v: 480px*/
+/*mob_h: 640px-----*/
+/*tap_v: 768px*/
+/*tap_h: 1023px-----*/
+/*pc:1024px(min)-----*/
+/*pcfull:1280(min)*/
+
+@media screen and (max-width: 639px) {}
+@media screen and (min-width: 640px) and (max-width: 1023px) {}
+@media screen and (min-width: 1024px) {}
+
+/*주의사항
+단위: px단위는 안함- em, rem, %;
+*/

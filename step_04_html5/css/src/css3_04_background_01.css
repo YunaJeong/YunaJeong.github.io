@@ -1,0 +1,49 @@
+/*css3_04_background_01.css*/
+
+/*background-color
+background-image
+background-repeat
+background-position
+background-attatchment
+
+background-size: cover / content / %;
+	cover : 주어진 크기에 맞게 꽉차게 만드는것(일부 유실가능성 있음)
+	content : 이미지 전체를 무조건 다 보이게(비율유지)
+	% : 하나만 작성시 가로비율만 주어진 크기에 맞게 배치
+background-image의 기능이 많이추가되었다.
+image기능추가:
+	1. 멀티 이미지배치가 가능해졌다. (url(), url(), url(), url())
+		background-position:0 0, top right, bottom center, left 100%;
+		background-repeat:no-repeat, repeat, repeat-x, repeat;
+	2. gradient(linear, radial)
+
+background:url('.png'), repeat, 0 0;
+*/
+body{}
+h1{width: 100%; height: 3rem; text-align:center; margin-bottom: 2rem;
+	box-shadow:0 2px 3px #333; background-color:#fff;}
+body>div{width: 700px; height: 300px; border-bottom: 1px solid #333; background-color:#ddd; 
+	margin:0 auto; box-sizing:border-box; padding: 1rem; 
+	background-repeat: no-repeat; background-position:center;}
+.box_01{background-image: url(../img/images01.jpg);background-size:50% 50%;}
+.box_02{background-image: url(../img/images.jpg);background-size:contain;}
+.box_03{background-image: url(../img/imgres.jpg), url(../img/images01.jpg);
+	background-position:left bottom, right top;
+	-webkit-background-size:20% 40%;
+	-moz-background-size:20% 40%;
+	-ms-background-size:20% 40%;
+	-o-background-size:20% 40%;
+	background-size:20% 40%;}
+.box_04{
+	-webkit-background-image:linear-gradient(45deg, #0af 50%, rgba(255,150,0,0.3) 50%);
+  -moz-background-image:linear-gradient(45deg, #0af 50%, rgba(255,150,0,0.3) 50%);
+  -ms-background-image:linear-gradient(45deg, #0af 50%, rgba(255,150,0,0.3) 50%);
+  -o-background-image:linear-gradient(45deg, #0af 50%, rgba(255,150,0,0.3) 50%);
+  background-image:linear-gradient(45deg, #0af 50%, rgba(255,150,0,0.3) 50%);}
+
+.box_05{background-image:-webkit-radial-gradient(right center, #0af, #fa0, #f07);
+	background-image:-moz-radial-gradient(right center, #0af, #fa0, #f07);
+	background-image:-ms-radial-gradient(right center, #0af, #fa0, #f07);
+	background-image:-o-radial-gradient(right center, #0af, #fa0, #f07);
+	background-image:radial-gradient(right center, #0af, #fa0, #f07);
+	background-color: #fa0;}

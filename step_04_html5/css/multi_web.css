@@ -1,0 +1,11 @@
+/*multi_web.css*/
+@charset "UTF-8";
+
+/*body{height: 100%;}*/
+body{position:relative;}
+#headeBox{width: 960px; height: 480px; height: 3rem; background-color:#fcc; position: absolute;
+	top: 160px; top: 1rem; left:50%; margin-left:-480px; z-index:100;}
+#videoBox{width: 100%; height: 100%; background-color:#1cc; overflow:hidden;}
+	#videoPlayer{width: 100%; height: auto; background-image:url("../multi/moon.jpg"); background-size:100%;}
+#conBox{width: 100%; height: 100%; background-color:#ac7;}
+#footBox{width: 100%; height: 160px; height: 10rem; background-color:#a72;}

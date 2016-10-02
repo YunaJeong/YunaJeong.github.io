@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<title>javascript_02</title>
+</head>
+<body>
+	<script>
+	//<![CDATA[
+		//'use strict';
+			//변수
+			var num;
+			var str, num2, str2, num3;
+
+			num2=null;
+			//console.log(num);	//변수 num
+			//console.log(num3);	//변수 num3(실제 존재하지 않는다.)
+			//console.log('num3');	//문자 num3
+			//console.log(num == num2);	//true
+			//console.log(num === num2);	//false
+			
+
+			console.log('where_var', where_var);	//에러를 표시할것 같으나, 뒤에 선언했기 때문에 undefined
+			var where_var;
+			where_var=null;
+			//javascript는 다른 언어와는 다르게 변수선언의 위치가 꼭 처음에 해야하는 것은 아니다.
+			//호이스트 현상: 변수선언이 뒤에 나오더라도, 실제 변수명은 최상단(영역내에서)으로 끌러올려지는 현상
+
+			console.log('where_var:', where_var);	//결과값 자체가 먼저 도출되었기 때문에 값은 null
+
+			where_var=10;
+			console.log('where_var:', where_var);	//10
+
+			where_var='변수의 변화확인';
+			console.log('where_var:', where_var);	//변수의 변화확인
+
+			console.log('----------------------------------------------------');
+			var eunji='남자친구를 만나다'
+			var eun_jin = eunji;
+
+			console.log('eun_jin:', eun_jin);
+
+			eunji='남자친구를 얄미워하다'
+			console.log('eun_jin:', eunji);
+			console.log('eun_jin:', eun_jin);
+	//]]>
+	</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/*css3_02_border.css*/
+
+h1{font-size: 2rem; width: 100%; height: 3rem; background-color: #ccc;
+	margin: 0 auto; border-bottom: 1px solid #333; margin-bottom: 1rem;
+	text-align: center; color:#fff; line-height: 3rem;}
+.radius_01{width: 80%; height: 20rem; background-color: #0af; margin: 0 auto;}
+.radius_01>li{width: 8rem; height: 8rem; background-color: #fff; float:left;
+	margin: 0.5rem; text-align: center; line-height: 8rem;}
+	/*.radius_01>li:nth-child(1){border-radius:2rem;}
+	.radius_01>li:nth-child(2){border-radius:0.5rem 1rem 2rem 3rem;}
+	.radius_01>li:nth-child(3){border-top-left-radius:2rem;
+		border-bottom-right-radius:5rem;}
+	.radius_01>li:nth-child(4){border-top-right-radius:4rem 1rem;
+		border-bottom-left-radius:8rem 2rem;}
+	.radius_01>li:nth-child(5){border-radius:50%; transition:all 1s;}
+	.radius_01>li:nth-child(5):hover{border-radius:0; background-color: #f04;}
+	.radius_01>li:nth-child(5):active{transform:rotate(45deg);}*/
+	.radius_01>li:nth-child(1){border-top-left-radius:5rem;}
+	.radius_01>li:nth-child(2){border-top-left-radius:10rem;}
+	.radius_01>li:nth-child(3){border-top-right-radius:5rem; border-top-left-radius:5rem;}
+	.radius_01>li:nth-child(4){border-bottom-right-radius:5rem; border-bottom-left-radius:5rem;}
+	.radius_01>li:nth-child(5){border-radius:5rem 5rem 5rem 0;}
+	.radius_01>li:nth-child(6){border-radius:5rem 0;}
+	.radius_01>li:nth-child(7){border-radius:0 10rem;}
+	.radius_01>li:nth-child(8){border-radius:5rem;}
+	.radius_01>li:nth-child(9){border-top-left-radius:10rem; border-bottom-right-radius:5rem;}
+	.radius_01>li:nth-child(10){border-top-left-radius:50% 100%; border-bottom-right-radius:100% 50%;}
+	.radius_01>li:nth-child(11){border-top-left-radius:20rem 10rem; border-bottom-right-radius:20rem 10rem;}
+	.radius_01>li:nth-child(12){border-top-left-radius:100%; border-bottom-right-radius:50% 100%;}
+	.radius_01>li:nth-child(13){border-radius:;}
+	.radius_01>li:nth-child(14){}
+	.radius_01>li:nth-child(15){border-top-right-radius:4rem; border-top-left-radius:50%}

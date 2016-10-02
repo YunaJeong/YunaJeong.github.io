@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/base/reset.css">
+	<link rel="stylesheet" href="./css/form_login_03.css">
+	<title>title</title>
+</head>
+<body>
+	<h1>login</h1>
+	<div class="login_box">
+		<form action="" method="post">
+			<fieldset class="box_01">
+				<legend>Step 1: Your details</legend>
+				<ul>
+					<li>
+						<label for="userName">Name</label>
+						<input type="text" name="userName" id="userName" value="" 
+							placeholder="First and last name" />
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" value=""
+							placeholder="example@domain.com" />
+					</li>
+					<li>
+						<label for="phone">Phone</label>
+						<input type="tel" name="phone" id="phone" value=""
+							placeholder="Eg. +447500000000" />
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset class="box_02">
+				<legend>Step 2: Delivery address</legend>
+				<ul>
+					<li class="add_box">
+						<label for="address">Address</label>
+						<textarea type="text" name="address" id="address" value="" cols=40 rows=30 >
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, omni
+						</textarea>
+					</li>
+					<li>
+						<label for="post">Post code</label>
+						<input type="text" name="post" id="post" value="" />
+					</li>
+					<li>
+						<label for="country">Country</label>
+					<input type="text" name="country" id="country" value="" />
+					</li>
+				</ul>
+			</fieldset>
+			<fieldset class="box_03">
+				<legend>Step 3: Card details</legend>
+				<ul>
+					<li class="card_box">
+						<p>Card type</p>
+						<input type="radio" name="card" id="visa" value="" />
+						<label for="visa">VISA</label>
+						<input type="radio" name="card" id="amex" value="" />
+						<label for="amex">AmEx</label>
+						<input type="radio" name="card" id="mastercard" value="" />
+						<label for="mastercard">Mastercard</label>
+					</li>
+					<li>
+						<label for="car_Num">Card number</label>
+						<input type="tel" name="car_Num" id="car_Num" value="" />
+					</li>
+					<li>
+						<label for="scu_Code">Security code</label>
+						<input type="password" name="scu_Code" id="scu_Code" value="" />
+					</li>
+					<li>
+						<label for="card_Name">Name on card</label>
+						<input type="text" name="card_Name" id="card_Name" value="" placeholder="Exact name as on the card" />
+					</li>
+				</ul>
+			</fieldset>
+		</form>
+		<button type="button">BUY IT!</button>
+	</div>
+</body>
+</html>
