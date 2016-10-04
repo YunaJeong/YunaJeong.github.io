@@ -6,12 +6,12 @@
 	<link rel="stylesheet" href="./css/base/reset.css">
 	<link rel="stylesheet" href="./css/hangul.css">
 	<title>hangul</title>
+	<script src="./js/hangul.js"></script>
 </head>
 <body>
 	<div class="container">
-		<script src="./js/hangul.js"></script>
 		<header>
-			<h1><span class="hidden">logo</span></h2>
+			<h1><span class="hidden">logo</span></h1>
 			<div class="unb">
 				<ul>
 					<li><a href="#">로그인</a></li><span></span>
@@ -19,13 +19,13 @@
 					<li><a href="#">매장찾기</a></li>
 				</ul>
 			</div>
-			<div class="glb_01">
+			<div class="glb glb_01">
 				<ul>
 					<li class="text"><a href="#">진행중 이벤트</a></li><span></span>
 					<li><a href="#">매장별 이벤트</a></li>
 				</ul>
 			</div>
-			<div class="glb_02">
+			<div class="glb glb_02">
 				<ul>
 					<li><a href="#">종료된 이벤트</a></li><span></span>
 					<li><a href="#">광고 공모전</a></li>
@@ -34,9 +34,9 @@
 		</header>
 		<section>
 			<div class="main">
-				<button type="button">자세히 보기</button>
+				<button type="button" class="show">자세히 보기</button>
 			</div>
-			<div class="attend">
+			<div class="attend hide">
 				<ul class="info">
 					<li>응모기간</li>
 					<p>2016년 10월1일 ~ 10월5일</p>
@@ -46,7 +46,6 @@
 					<p>대상1명:200만원<br />
 						 우수상3명:100만원<br />
 						 장려상10명:30만원</p>
-					<p>대상1명:200만원<br />우수상3명:100만원<br />장려상10명:30만원</p>
 					<li>수상자 발표</li>
 					<p>탐앤탐스 홈페이지를 통해 발표</p>
 					<li>응모방법</li>
