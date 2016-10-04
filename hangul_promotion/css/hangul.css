@@ -3,7 +3,8 @@ ul,li,p,button{font-family:나눔스퀘어, serif, arial;}
 .container{width: 60rem; height: 100%; background-color:#aaa; margin:0 auto;}
 /*header------------------------------------------------*/
 header{width: 100%; height: 150px; background-color:#fff; position:relative;}
-h1{width: 100px; height: 106px; background-image:url(../img/header_logo.png); position:absolute;
+h1{width: 100px; height: 106px; background-image:url(../img/header_logo.png);
+	background-repeat: no-repeat; position:absolute;
 	left:50%; top: 22px; margin-left:-50px; z-index:1000;}
 	.unb{width: 230px; height: 22px; background-color:#fff; margin: 20px 16px;
 		float:right;}
@@ -20,16 +21,23 @@ header li{float:left; font-size:24px;}
 
 /*section-------------------------------------------------*/
 section{width: 100%; height: auto; background-color:#0af;}
-.main{width: 100%; height: 660px; background-image:url(../img/main.jpg);}
+.main{width: 100%; height: 660px; background-image:url(../img/main.jpg);
+	background-repeat: no-repeat;}
 section button{width: 120px; height: 26px; margin:602px 420px;
-		margin-bottom: 32px; font-size:1.3rem; color:#073F2C;}
-.attend{width: 100%; height: 1540px; background-image:url(../img/attend.png);}
-.attend>ul{width: 480px; height: 620px; background-color:transparent; margin-top: 690px;
-	margin-left:150px; float:left;}
+		margin-bottom: 32px; font-size:1.3rem; color:#073F2C; background-color:transparent;}
+.attend{width: 100%; height: 1540px; background-image:url(../img/attend.png);
+	background-repeat: no-repeat;}
+.info{width: 480px; height: 620px; background-color:transparent; margin-top: 690px;
+ 	margin-left:150px; float:left;}
+.note{width: 100%; height: 120px; background-color:transparent; float:left;
+ 	margin-top:100px; margin-left:20px;}
+.note>li{width: 220px; height: 25px; border-bottom:2px solid #333; text-align:center;}
 .attend li{font-size:22px; color:#571c1f; font-weight:bold; margin-bottom:10px;}
 .attend p{font-size:18px; margin-bottom:25px; line-height:25px; }
+
 /*footer--------------------------------------------------*/
 footer{width: 928px; height: 150px; background-color:#595959; padding:0 16px;}
-footer>h2{width: 70px; height: 68px; background-image:url(../img/footer_logo.png); float:left; margin-top:42px; margin-left;}
+footer>h2{width: 70px; height: 68px; background-image:url(../img/footer_logo.png);
+	background-repeat: no-repeat; float:left; margin-top:42px; margin-left;}
 footer>p{margin-left:32px; line-height:25px; float:left; color:#fff;}
 footer>.addr_01{margin-top:42px;}
