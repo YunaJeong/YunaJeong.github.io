@@ -1,5 +1,5 @@
 $(document).ready(function(){
 	$('.show').click(function(){
-		$('.attend').show();
+		$('.attend').css({display:'block'});
 	});
 });

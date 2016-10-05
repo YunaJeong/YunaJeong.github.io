@@ -3,24 +3,38 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/bin/reset.css">
 	<title>title</title>
 	<script src="./js/jquery-1.12.4.min.js"></script>
 	<script src="./js/jquery-migrate-3.0.0.min.js"></script>
 	<script src="./js/jquery-ui.min.js"></script>
 	<style>
-		div{width: 100px; height: 100px; margin-bottom:10px; color:#fff;
-			padding:1rem; box-sizing:border-box; float:left;}
+		div{width: 100px; height: 100px; font-weight:bold; color:#fff;
+			padding:1rem; box-sizing:border-box; float:left; margin:1rem;}
 		#red{background-color:#ff0000;}
 		#blue{background-color: #0000ff;}
 		#yellow{background-color: #e2be22;}
-		#green{background-color: #008800;}
+		/*#green{background-color: #008800;}
+
+		#ck{display:none;}
+		#block{width: 200px; height: 50px; border-radius:25px;
+			border:2px solid #777; box-shadow:1px 1px 1px #333 inset;
+			position:relative;}
+		[for="ck"]{width: 40px; height: 40px; background-color: #0ac;
+			border-radius:100%; float:left; position:absolute; top:4px; left:4px;
+			transition:0.5s;}
+		#ck:checked + #block > label{left:150px; background-color:#f8a;}*/
 	</style>
 </head>
 <body>
 	<div id="red">red</div>
 	<div id="blue">blue</div>
 	<div id="yellow">yellow</div>
-	<div id="green">green</div>
+	<!-- <div id="green">green</div>
+	<input type="checkbox" id="ck">
+	<div id="block">
+		<label for="ck"><span class="hidden">check</span></label>
+	</div> -->
 	<script src="./js/src/jquery2_01.js"></script>
 </body>
 </html>
