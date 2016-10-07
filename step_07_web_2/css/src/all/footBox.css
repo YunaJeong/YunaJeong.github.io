@@ -4,6 +4,46 @@
 #footBox{width: 100%; height: 120px; padding:20px 70px 20px 30px; box-sizing:border-box;}
 #footBox>h2{width: 80px; height: 26px; float:left; margin-top:22px; margin-right: 50px;
 	background-image:url("../../../img/all/footer/h2_logo.png"); background-repeat:no-repeat; 
-	background-position:0 0;}
-.xido_adr{width: 430px; height: 78px; float:left; background-color: #fff;}
-.family_mark{width: 134px; height: 100px; float:right; margin-top: -20px; background-color: #fff;}
+	background-position:center 3px;}
+#footBox>h2>span{font-size: 0.6rem; font-weight:normal; letter-spacing:-0.02rem; padding-top: 30px;
+	float:left;}
+
+.xido_adr{width: 430px; height: 78px; float:left;}
+.xido_adr>ul{width: 100%; height: 18px;}
+.xido_adr>ul>li{float:left; position:relative; padding:0 6px;}
+.xido_adr>ul>li:first-child{padding-left:0;}
+.xido_adr>ul>li:last-child{padding-right:0;}
+.xido_adr>ul>li:last-child{border:0;}
+.xido_adr>ul>li::after{content:" "; display:block; border-right:1px solid #fff;
+	width: 0; height: 14px; position:absolute; right:0; top:2px;}
+.xido_adr>ul>li>a{color:#fff; line-height:18px; font-size:1rem;}
+
+.xido_adr>address{width: 100%; height: 36px; margin-top: 4px;}
+.xido_adr>address>p{width: 100%; height: 100%; font-size: 1rem; color:#ddd;}
+.xido_adr>address>p>strong{font-weight: normal;}
+.xido_adr>address>p>strong::after{content:" : ";}
+.xido_adr .bar{width: 0; height: 0.7rem; border-right:1px solid #ddd; display:inline-block;}
+
+.xido_adr>p{width: 100%; height: 20px; color:#ddd;}
+.xido_adr>p>small{}
+
+.family_mark{width: 134px; height: 100px; float:right; margin-top: -20px;}
+.family_mark>#family{width: 100%; height: 20px; margin-bottom: 4px; background-color: #ddd;
+	border:0; color:#f06; font-weight:bold; font-style:italic;}
+.family_mark>#family>.option{}
+
+.family_mark>p{width: 100%; height: 18px; margin-bottom: 20px; color:#ddd; font-size:0.7rem;
+	text-align:right;}
+
+.family_mark>dl{width: 100%; height: 40px;}
+.family_mark>dl>dt{}
+.family_mark>dl>dd{width: 40px; height: 100%; float:left; margin-right:7px; 
+	background-image:url("../../../img/all/footer/link_mark_00.png"); 
+	background-repeat:no-repeat; transition: background-position 0.5s;}
+.family_mark>dl>dd:nth-of-type(1){background-position:left top;}
+.family_mark>dl>dd:nth-of-type(2){background-position:center top;}
+.family_mark>dl>dd:nth-of-type(3){background-position:right top; margin-right:0;}
+
+.family_mark>dl>dd:nth-of-type(1):hover{background-position:left bottom;}
+.family_mark>dl>dd:nth-of-type(2):hover{background-position:center bottom;}
+.family_mark>dl>dd:nth-of-type(3):hover{background-position:right bottom;}
