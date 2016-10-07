@@ -146,18 +146,19 @@
 					<option value="http://google.com">구글</option>
 				</select>
 				<script>
-					// (function($){
-					// 	$('#family>option').on('click',function(){
-					// 		var option_link = $(this).val();
-					// 		console.log(option_link);
-					// 	});
-					// });(this.jQuery)
-					var family = document.querySelector('#family');
-					family.onchange = function(){
-						var this_site = this.children[this.selectedIndex].getAttribute('value');
-						window.location.href = this_site;
-					}
-					
+					 (function($){
+					 	$('#family').on('change',function(){
+					 		var url = $(this).val();
+					 		//console.log(option_link);
+					 		location = url;
+					 	});
+					 })(this.jQuery);
+					// var family = document.querySelector('#family');
+					// family.onchange = function(){
+					// 	var this_site = this.children[this.selectedIndex].getAttribute('value');
+					// 	window.location.href = this_site;
+					// } //javascript
+
 				</script>
 				<p>designed by xido.</p>
 				<dl>
