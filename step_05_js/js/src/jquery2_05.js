@@ -5,4 +5,4 @@
 		var h_width = $(this).width();
 			console.log(h_width);
 	});
-});
+})(this.jQuery);
