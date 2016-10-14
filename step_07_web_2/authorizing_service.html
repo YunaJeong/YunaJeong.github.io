@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./css/bin/reset.css">
+	<link rel="stylesheet" href="./font-awesome/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/authorizing_service.css">
+	<!--[if lte IE 9]>
+	<script src="./ie/html5shiv/dist/html5shiv-printshiv.min.js"></script>
+	<script src="./ie/ie7/IE9.js"></script>
+	<script src="./ie/PIE/PIE_IE678.js"></script>
+
+	<link rel="stylesheet" href="./css/src/author_service_ie.css">
+	<![endif]-->
+
+	<script src="./js/jquery/jquery-1.12.4.min.js"></script>
+	<script src="./js/jquery/jquery-ui.min.js"></script>
+	<title>title</title>
+</head>
+<body>
+	<h1 class="hidden">시도 웹 회원인증</h1>
+	<div id="container">
+		<h2 class="wfont">본인 인증 서비스</h2>
+		<div id="con_box">
+			<h3>휴대폰 인증</h3>
+			<p>입력하시는 정보는 암호화되어처리되며,<br />어떠한 비용도 발생하지 않습니다.</p>
+			<form action="#" method="post">
+				<fieldset>
+					<legend class="hidden">휴대폰 인증</legend>
+					<div class="sColor1">
+						
+						<dl class="phone_num">
+							<dt><label for="nums">휴대폰번호</label></dt>
+							<dd><select name="" id="nums">
+									<script>
+										(function($){
+											for(var i = 0, j = 9; i<=j; i++){
+												$('select').append(
+														'<option value="01"'+i+'>01'+i+'</option>'
+													);
+											}
+										})(this.jQuery);
+									</script>
+								</select></dd>
+							<dd>
+								<label for="pNumberFirst" class="hidden">휴대폰 가운데번호 세자리 또는  네자리를 입력하세요.</label>
+								<input type="tel" name="p_number" id="pNumberFirst" value="" maxlength="4" placeholder="가운데 번호">
+							</dd>
+							<dd>
+								<label for="pNumberLast" class="hidden">휴대폰 마지막번호 네자리를 입력하세요.</label>
+								<input type="tel" name="p_number" id="pNumberLast" value="" maxlength="4" placeholder="마지막 번호">
+							</dd>
+
+							<dt class="telecom">이동통신사</dt>
+							<dd>
+								<input type="radio" name="press_agency" id="skt" value="skt">
+								<label for="skt">SKT</label>
+							</dd>
+							<dd>
+								<input type="radio" name="press_agency" id="kt" value="kt">
+								<label for="">KT</label>
+							</dd>
+							<dd>
+								<input type="radio" name="press_agency" id="lgu" value="lgu">
+								<label for="">LG U+</label>
+							</dd>
+						</dl>
+					</div>
+					<div class="check_box bdline bdline_color"></div>
+				</fieldset>
+
+				<fieldset>
+					<legend class="hidden">인증 확인 및 취소</legend>
+					<input type="submit" name="yes" id="yes" value="확인">
+					<input type="reset" name="no" id="no" valude="취소">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+
+			
+			<div class="check">
+				<input type="checkbox" name="agree" id="agree" value="">
+				<label for="agree">개인 정보 제공 및 활용에 동의합니다.</label>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+@import url(./source.css);
+
+#container{width: 450px; height: 365px; background-color:#ddd; margin:0 auto;}
+h2{width: 100%; height: 75px; background-color:#ff0066; box-sizing:border-box; padding-top:28px; padding-left: 36px; font-size:1.375rem; font-weight:bold;
+	background-image:linear-gradient(60deg, #f06 70%, #ff80b3 70%, #ec6da0);}
+#con_box{width: 100%; height: 290px; box-sizing:border-box; padding:18px 38px;}
+#con_box>h3{margin-bottom:8px; font-weight:bold; font-size: 19.2px;}
+#con_box>p{font-size:16px; height:auto; line-height: 19.2px;}

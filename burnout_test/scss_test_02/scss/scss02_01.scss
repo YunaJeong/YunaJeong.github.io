@@ -1,0 +1,72 @@
+// scss 고유 주석 css로 변환이 되지 않는다.
+/* css로 변환이 된다.!! */
+$main: #faa;
+$font: #334;
+$line-color: #440;
+
+
+/*for(	반복	){}
+	for(원하는 내용 in 전체)
+	each(	in )
+*/
+
+
+$font-size:16, 15, 20, 25, 10;
+$font-color:#fff, #faf, #ffa, #fda, #dfa;
+// @each $current in $color_list {
+// 	$i:index($color_list, $current);
+// 		li:nth-child(#{$i}){
+// 			background-color: $current;
+// 		}
+// }
+
+// @each $current in $font-size {
+// 	$i:index($font-size, $current);
+// 		li:nth-child(#{$i}){
+// 			font-size: $current+px;
+// 		}
+// }
+@mixin color($arr:$color_list){
+	@each $a in $arr{
+		$i:index($arr, $a);
+			&:nth-child(#{$i}){
+				background-color: $a;
+			}
+	}
+}//@mixin
+
+// body{color: $font; border-top:2px solid $line-color;}
+// #wrap{color:lighten($font, 20%);
+//  	>ul{width: 100px; height: auto; background-color: #fff;
+//  		>li{list-style:none;
+//  			$c:#fa0, #ccc, #faa, #dfa, #ff0;
+//  			@include color($c);
+// 			// &:nth-child(1){color:lighten($font, 20%);}
+// 			// &:nth-child(2){color:darken($font, 10%);}
+// 			// &:nth-child(3){color:rgba($font, 0.5);}
+// 			// &:nth-child(4){color:#acc;}
+// 			// &:nth-child(5){color:rgba(#5cc, 0.7);}
+// 		}//li
+// 	}//ul
+// }//#wrap
+
+
+$mob:600px;
+$tab:1024px;
+
+// @media screen and (max-width:$mob){
+// 	body{background-color: #0ff;}
+// }
+// @media screen and (min-width:$mob + 1) and (max-width:$tab - 1){
+// 	body{background-color: #0f5;}
+// }
+// @media screen and (min-width:$tab){
+// 	body{background-color: #7a5;}
+// }
+
+body{
+	background-color: #aaa;
+	@media screen and (max-width:$mob){
+		background-color: #0ff;
+	}
+}

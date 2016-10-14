@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* css로 변환이 된다.!! */
+/*for(	반복	){}
+	for(원하는 내용 in 전체)
+	each(	in )
+*/
+body {
+  background-color: #aaa; }
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: #0ff; } }
+
+/*# sourceMappingURL=scss02_01.css.map */
